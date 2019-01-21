@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #9DE8A4;
+}
+
+body, html {
+    height: 100%;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----Scroll Wheel-----*/
+
+/*----------*/
+
+/*-----Fonts-----*/
+
+/*----------*/
+
+/*-----Navigation Bar-----*/
+#topbox {
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	background-color: white;
+	padding: 1em 1.5em;
+}
+
+#topbox ul {
+	list-style-type: none;
+}
+
+.socials img {
+	width: 2em;
+	margin: 0 .5em;
+}
+
+.socials, .sitenav {
+	display: inline-block;
+}
+
+.socials {
+	width: 29%;
+}
+
+.sitenav {
+	width: 70%;
+	text-align: right;
+}
+
+.socials li, .sitenav li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sitenav a {
+	margin: 0 1.5em;
+	text-decoration: none;
+	color: black;
+}
+
+.sitenav a:hover {
+	color: #9DE8A4;
+}
+/*----------*/
+
+/*-----Banner w/ Parallax-----*/
+.banner {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url("images/nodoka15.jpg");
+    min-height: 100%;
+}
+
+@media only screen and (max-device-width: 100em) {
+    .bgimg-1 {
+        background-attachment: scroll;
+		min-height: 26.7em
+    }
+}
+
+.sub-banner {
+	background-color: #FF8EB2;
+    min-height: 15em;
+}
+
+.sitelogo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	display: block;
+	text-align: center;
+}
+/*----------*/
