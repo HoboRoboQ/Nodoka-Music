@@ -10,7 +10,6 @@ html {
 }
 
 body {
-	background-color: #AEE8A7;
 	text-align: center;
 }
 
@@ -21,7 +20,6 @@ body, html {
 }
 
 .sub-banner {
-	background-color: #E8A5C4;
     min-height: 15em;
 }
 
@@ -54,7 +52,7 @@ body, html {
 
 .socials img {
 	width: 2em;
-	margin: 0 .5em;
+	margin: 0 0 0 1em;
 }
 
 .socials, .sitenav {
@@ -63,6 +61,7 @@ body, html {
 
 .socials {
 	width: 29%;
+	text-align: left;
 }
 
 .sitenav {
@@ -114,6 +113,10 @@ body, html {
 	font-size: 1.5em;
 }
 
+.sitelogo h1 {
+	font-weight: lighter;
+}
+
 /*-----About Section-----*/
 #about {
 	padding: 4em;
@@ -130,7 +133,7 @@ body, html {
 }
 
 .portrait img {
-	width: 100%;
+	width: 80%;
 }
 
 .tag {
@@ -138,7 +141,7 @@ body, html {
 	text-align: left;
 	position: absolute;
 	top: 10%;
-	right: 8%;
+	right: 15%;
 	border: solid 4px white;
 	padding: 1em;
 }
@@ -149,3 +152,6 @@ body, html {
 }
 
 /*-----Music-----*/
+.cover {
+	max-width: 40em;
+}
