@@ -11,6 +11,7 @@ html {
 
 body {
 	text-align: center;
+	background-color: #F2F3EE;
 }
 
 body, html {
@@ -19,23 +20,10 @@ body, html {
 	font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 
-.sub-banner {
-    min-height: 15em;
-	border: solid 1px;
-	position: relative;
-}
-
-.sub-title{
-	text-align: right;
-	color: #A3D99C;
-}
-
-.center {
-	text-align: center;
-}
-
-.title {
-	color: #D97AB9;
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 4em;
 }
 
 /*-----Scroll Wheel-----*/
@@ -87,7 +75,7 @@ body, html {
 }
 
 .sitenav a:hover {
-	color: #D97AB9;
+	color: #946688;
 }
 
 /*-----Banner w/ Parallax-----*/
@@ -125,58 +113,11 @@ body, html {
 
 /*-----About Section-----*/
 #about {
-	padding: 4em;
 	border-bottom: solid 2px;
 }
 
-.portrait, .intro {
-	display: inline-block;
-	vertical-align: middle;
-	width: 49%;
-}
-
-.portrait {
-	position: relative;
-}
-
 .portrait img {
-	width: 80%;
-}
-
-.tag {
-	background-color: rgb(163, 217, 156, 0.8);
-	color: white;
-	text-align: left;
-	position: absolute;
-	top: 10%;
-	right: 15%;
-	border: solid 4px white;
-	padding: 1em;
-}
-
-.intro {
-	text-align: left;
-	padding: 1em;
+	width: 100%;
 }
 
 /*-----Music-----*/
-.cover {
-	max-width: 40em;
-}
-
-.cdtag {
-	color: white;
-	text-align: left;
-	background-color: rgb(256, 156, 297, 0.8);
-	border: solid 4px white;
-	padding: 1em;
-	width: 30em;
-	position: absolute;
-}
-
-.price {
-	background-color: #A3D99C;
-	display: inline-block;
-	margin: 0 auto;
-	padding: 2em;
-}

@@ -263,3 +263,16 @@ Also, I still have to add some information of my CD. But for now I think it is g
 
 
 桑原　悠
+
+colors
+ #A3D99C - green
+ #D99CC5 - pink
+ 
+ #618089 - dark blue
+ 
+web palette 1 
+	F2F3EE
+	8EA46D
+	A3D99C
+	946688
+	62828C
