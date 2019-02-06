@@ -276,3 +276,10 @@ web palette 1
 	A3D99C
 	946688
 	62828C
+	
+web palette 2
+	f7f7f6
+	c5c082
+	90BF8A
+	bf8aad
+	836D80
