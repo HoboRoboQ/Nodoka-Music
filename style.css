@@ -128,10 +128,6 @@ p {
 }
 
 /*-----About-----*/
-#about {
-	
-}
-
 .intro {
 	text-align: left;
 	color: #62828C;
@@ -163,7 +159,6 @@ p {
 .new_release {
 	width: 80%;
 	margin: 0 auto;
-	background-color: ;
 	color: #90BF8A;
 	padding: 1em 4em;
 	border-top: solid 4px;
