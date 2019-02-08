@@ -42,7 +42,7 @@ p {
 	position: fixed;
 	width: 100%;
 	z-index: 5;
-	background-color: white;
+	background-color: #90BF8A;
 	padding: .15em 1.5em;
 	box-shadow: 0 .15em 2em #4C4C4C;
 }
@@ -78,11 +78,11 @@ p {
 .sitenav a {
 	margin: 0 1.5em;
 	text-decoration: none;
-	color: #A3D99C;
+	color: #836D80;
 }
 
 .sitenav a:hover {
-	color: #946688;
+	color: #90BF8A;
 }
 
 /*-----Banners w/ Parallax-----*/
@@ -219,15 +219,38 @@ p {
 	width: 50%;
 	margin: 0 auto;
 	box-shadow: .5em .5em 1em #4C4C4C;
+	border-radius: 2%;
 }
 
 .card p{
 	padding: .5em;
 }
 
+.english .card {
+	background-color: #836D80;
+}
+
+.trumpet .card {
+	background-color: #f7f7f6;
+}
+
+p.dark {
+	color: #836D80;
+}
+
+p.light {
+	color: #f7f7f6;
+}
+
 .thumbnail {
 	vertical-align: top;
 	width: 100%;
+	border-radius: 100%;
+	background-color: #836D80;
+}
+
+.lesson_text {
+	padding: 2em;
 }
 
 /*-----Gallery-----*/
@@ -237,13 +260,13 @@ p {
 	padding: 0 4px;
 }
 
-.grid {
+.column {
 	flex: 25%;
 	max-width: 25%;
 	padding: 0 4px;
 }
 
-.grid img {
+.column img {
 	margin-top: 8px;
 	vertical-align: middle;
 	max-width: 100%;
@@ -258,3 +281,43 @@ p {
 }
 
 /*-----Contacts-----*/
+.contact_card {
+	display: flex;
+	background: #62828C;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.contact_card a {
+	text-decoration: none;
+	color: #836D80;
+}
+
+.message, .social_links {
+	position: relative;
+	flex: 50%;
+}
+
+.message {
+	border-right: solid;
+}
+
+.social_links {
+	border-left: solid,
+}
+
+.contact_card img{
+	width: 3em;
+}
+
+table, td {
+	padding: .5em;
+}
+
+td {
+	vertical-align: middle;
+}
+
+table {
+	margin: 0 auto;
+}
