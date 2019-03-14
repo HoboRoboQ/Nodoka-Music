@@ -11,7 +11,7 @@ html {
 
 body {
 	text-align: center;
-	/*background-color: #F7F7F6;*/
+	background-color: #F7F7F6;
 }
 
 body, html {
@@ -20,12 +20,8 @@ body, html {
 	font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 
-p {
-	/*color: black #836D80*/;
-}
-
 .content {
-	max-width: 90%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
@@ -34,7 +30,7 @@ p {
 }
 
 .masspad {
-	padding: 3em;
+	padding: 3em 0;
 }
 
 /*-----Scroll Wheel-----*/
@@ -133,31 +129,29 @@ p {
 
 /*-----About-----*/
 .intro {
+	width: 75%;
+	margin: 0 auto;
 	text-align: left;
-	/*color: #62828C;*/
-	padding: 1em;
 }
 
 .portrait {
 	position: relative;
-	float: left;
-	width: 40%;
+	width: 100%;
 }
 
 .portrait img {
-	width: 90%;
-	border-radius: 50%;
-	border: solid 4px;
+	width: 35%;
 }
 
 .tag {
 	text-align: right;
+	color: #90BF8A;
+	background-color: #f7f7f6;
 	padding: .5em;
-	/*color: #F7F7F6;
-	background-color: #90BF8A;*/
+	border: solid 4px #90BF8A;
 	position: absolute;
-	left: 2%;
-	top: 10%;
+	left: 30%;
+	top: 5%;
 }
 
 /*-----Music-----*/
